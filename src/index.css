@@ -1,15 +1,199 @@
 body {
-  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
+  background-color: #6ccdd4;
+}
+
+.nav, nav-tabs {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: #272B36;
+}
+
+#nav-item {
+  color: #272B36;
+}
+
+#name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#footer {
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+#mePic {
+  border-radius: 5px;
+  max-width: 450px;
+  max-height: 430px;
+}
+
+#aboutParagraph {
+  font-weight: bold;
+  display: flex;
+  color: #272B36;
+  margin: 20px;
+  border: 2px solid #565E75;
+  border-radius: 4px;
+  padding: 10px;
+  background-color:#57bac3;
+}
+
+#picContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #baf6fa;
+  align-items: center;
+}
+
+h1 {
+  color: #272B36;
+  font-weight: bold;
+}
+
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #272B36;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  background-color: rgb(1, 75, 94);
+  max-height: 100%;
+  max-width: auto;
+  align-content: center;
+  align-items: center;
+}
+
+.projectTitle {
+  text-align: center;
+  color: white;
+}
+
+.viewGithub, a:hover {
+  color: white;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+  max-width: 30%;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+  max-width: 30%;
+}
+
+#columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resumeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#resume {
+  color: white;
+}
+
+#proficienciesContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: text-top;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#submit {
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 10px;
+  font-weight: bolder;
+  color: #272B36;
+}
+
+#error {
+  padding-right: 20px;
+  font-weight: bold;
+  color: maroon;
+}
+
+label {
+  font-weight: bold;
+  color: #272B36;
+  padding: 5px;
+}
+
+#contactList {
+  text-align: center;
+  list-style: none;
+}
+
+.listEl, a {
+  text-decoration: underline;
+  color: #272B36;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.listEl, a:hover {
+  text-decoration: none;
+}
+
+h5 {
+  color: #565E75;
 }

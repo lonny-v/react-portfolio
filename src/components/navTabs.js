@@ -4,7 +4,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
+        <ol className="nav nav-tabs">
 
             <li className="nav-item">
                 <a
@@ -54,7 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li>
-        </ul>
+        </ol>
     );
 }
 
