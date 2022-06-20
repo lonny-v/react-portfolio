@@ -4,7 +4,8 @@ export default function About() {
     return (
         <section className="page">
             <h1 id="about">About Me</h1>
-            {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
+            <img id='pic' src={require(`../../images/me.png`)}
+                alt={`My bagpipers and I`} />
             <div className="aboutParagraph">
                 <p>
                     Hello! My name is Lonny Vandenberg. I am a full stack web developer trained at the University of Utah.
