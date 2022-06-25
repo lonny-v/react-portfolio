@@ -11,8 +11,10 @@ export default function About() {
                 </div>
             
             <div className="aboutParagraph">
-                <p>
-                    Hello! My name is Lonny Vandenberg. I am a full stack web developer trained at the University of Utah.
+                <p class="aboutText">
+                    Hello! My name is Lonny Vandenberg (left). I am a full stack web developer trained at the University of Utah.
+                    <br />
+                    I have enjoyed learning JavaScript, Node, React, and many more technologies and look forward to learning more!
                     <br />
                     I enjoy coding and look forward to making a career out of it. More about me - I love music and am a multi-instrumentalist.
                     <br />
