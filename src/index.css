@@ -149,10 +149,10 @@ h2 {
 
 #contactContainer {
   display: flex;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   vertical-align: text-top;
-  padding: 20px;
+  padding: 0 20px;
   flex-wrap: wrap;
   flex-direction: row;
 }
