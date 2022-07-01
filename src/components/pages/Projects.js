@@ -9,6 +9,12 @@ export default function Portfolio() {
             <div id='columns'>
                 <div class='column1'>
                     <div class='card'>
+                        <a href="https://regal-help.herokuapp.com/"><h4 class='projectTitle'>Regal</h4>
+                            <img id='moviesNow' src={require(`../../images/regal.png`)}
+                                alt={`Regal`} /></a>
+                        <a class="viewGithub" href='https://github.com/BlinkingHeimdall/Regal'>View on GitHub</a>
+                    </div>
+                    <div class='card'>
                         <a href="https://eshumway1045.github.io/Group-Project-1/"><h4 class='projectTitle'>Movies Now</h4>
                             <img id='moviesNow' src={require(`../../images/moviesnow.png`)}
                                 alt={`Movies Now`} /></a>
